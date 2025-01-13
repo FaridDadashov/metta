@@ -1,0 +1,90 @@
+#coorporationid{
+    display: flex;
+    margin-top: 20px;
+    height: 80vh;
+    
+    .leftbar{
+        
+
+        li {
+            width: 480px;
+
+            a {
+                text-decoration: none;
+                display: inline-block;
+                padding: 12px 16px;
+                margin-top: 10px;
+                font-weight: 500;
+                font-size: 16px;
+                width: 334px;
+                color: black;
+                transition: color 0.2s ease-in;
+                position: relative;
+        
+                &:hover {
+                    background-color: #C6D7FA;
+                    &::after{
+                        position: absolute;
+                        content: '';
+                        width: 6px;
+                        height: 100%;
+                        background-color: #203E7C;
+                        left: 0;
+                        top: 0;
+
+                    }
+                }
+            }
+        }
+        
+
+    }
+.rightbar{
+        position: relative;
+        
+        margin-top: 10px;
+        h5{
+            font-size: 20px;
+            font-weight: 500;
+            position: absolute;
+            left: -160px;
+            top: -10px;
+
+        }  
+        img{
+            position: absolute;
+            left: -160px;
+            margin-top: 20px;
+            
+        }
+     
+    
+    
+    }
+}
+@media only screen and (max-width: 600px) {
+    #coorporationid {
+        flex-direction: column; /* Stack elements vertically */
+        height: auto;
+    }
+
+    .leftbar {
+        width: 100%; /* Full width for left bar */
+    }
+
+    .rightbar {
+        width: 100%; /* Full width for right bar */
+        margin-top: 20px;
+        
+        h5 {
+            font-size: 16px; /* Smaller font size for mobile */
+            position: relative; /* Adjusted for mobile */
+            margin-top: 10px;
+        }
+
+        img {
+            width: 100%; /* Ensure image fits on mobile */
+            margin-top: 20px;
+        }
+    }
+}

@@ -1,0 +1,68 @@
+#vacancy{
+    .search{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 14px;
+        border-radius: 10px;
+        border: 1px solid grey;
+        transition: box-shadow 0.25s;
+    }
+    .sear:focus-within{
+        box-shadow:0 0 2px 0 black;
+    }
+
+    .search-input{
+        font-size: 16px;
+        color: green;
+        margin-left: 14px;
+        background: transparent;
+        border: none;
+        width: 100% ;
+    }
+    .search-input:focus {
+        outline: none; 
+        border: none; 
+    }
+    .search-icon{
+        color: grey;
+    }
+
+    .box{
+        width: 100%;
+        padding: 20px;
+        margin-top: 50px;
+        border-radius: 15px;
+        border:1px solid grey;
+        a{
+            color: black;
+            text-decoration: none;
+        }
+        .topbox{
+            align-items: center;
+            h1{
+                font-size: 24px;
+                grid-row-end: 600;
+            }
+            img{
+                width: 78px;
+                margin-left: 10px;
+                height: 25px;
+            }
+        }
+        .bottombox{
+            align-items: center;
+            h1{
+                font-size: 16px;
+                font-weight: 400;
+                color: grey;
+                margin-left: 5px;
+
+            }
+            img{
+                width: 20px;
+                height: 18px;
+            }
+        }
+    }
+}

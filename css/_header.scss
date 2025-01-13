@@ -1,0 +1,72 @@
+header {
+  background-color: #203E7C;
+  display: flex;
+  flex-direction: column; 
+
+  .topleftHeader {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px; 
+  }
+
+  p {
+      margin-left: 20px;
+      color: white;
+  }
+
+  .toprightHeader {
+      display: flex;
+      align-items: center; 
+
+      a {
+          text-decoration: none;
+          transition: 0.2s ease-in;
+          color: white;
+          margin-left: 15px; /* Add some spacing between links */
+      }
+  }
+
+  .bottomHeader {
+      background-color: white;
+      width: 100%;
+      display: flex;
+      flex-direction: column; /* Make it a column for better responsiveness */
+      align-items: center; /* Center horizontally */
+
+      .logo {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 20px; /* Add some space below the logo */
+
+          img {
+              max-width: 200px; /* Use max-width for better responsiveness */
+              max-height: 200px;
+          }
+      }
+
+      .tabmenu {
+          display: flex;
+          justify-content: center; /* Center the menu horizontally */
+
+          ul {
+              display: flex;
+              list-style: none;
+
+              li {
+                  margin-left: 20px;
+
+                  a {
+                      text-decoration: none;
+                      color: black;
+                  }
+
+                  i {
+                      margin-left: 5px;
+                  }
+              }
+          }
+      }
+  }
+}
