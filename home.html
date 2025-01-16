@@ -3,100 +3,121 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="assets/bootstrap.css">
     <title>Homepage</title>
 </head>
 <body>
-    <header class="">
-        <div class="container2 wrapper">
-            <div class="logo">
-                <img src="photos/logo.png" alt="Etiket.pro ">
-            </div>
-            <div class="navbar">
-                <ul id="menu">
-                    <li><a href="/">Ana səhifə</a></li>
-                    <li><a href="/about.html">Haqqımızda <i class="fa-solid fa-chevron-down"></i></a></li>
-                    <li><a href="/products.html">Xidmətlər <i class="fa-solid fa-chevron-down"></i></a></li>
-                    <li><a href="/contact.html">Bloq</a></li>
-                    <li><a href="">Karyera <i class="fa-solid fa-chevron-down"></i></a></li>
-                    <li><a href="">Əlaqə</a></li>
-                </ul>
-            </div>
-            <nav>
-                <div id="responsive-menu">
-                    <div class="container open-menu">
-                        <div class="open-menu-logo">
-                            <img src="photos/logo.png" alt="Etiket.pro ">
-                        </div>
-                        <span id="menu-close">
-                            <i class="fa-solid fa-x"></i>
-                        </span>
-                        <ul class="list-unstyled">
-                            <li><a class="text-decoration-none" href="/">Ana səhifə</a></li>
-                            <hr>
-                            <li><a class="text-decoration-none" href="/about.html">Haqqımızda <i class="fa-solid fa-chevron-down"></i></a></li>
-                            <hr>
-                            <li><a class="text-decoration-none" href="/products.html">Xidmətlər <i class="fa-solid fa-chevron-down"></i></a></li>
-                            <hr>
-                            <li><a class="text-decoration-none" href="/contact.html">Bloq</a></li>
-                            <hr>
-
-                            <li><a class="text-decoration-none" href="#">Karyera <i class="fa-solid fa-chevron-down"></i></a></li>
-                            <hr>
-
-                            <li><a class="text-decoration-none" href="/contact.html">Əlaqə</a></li>
-                            <hr>
-                        </ul>
-                    </div>
-
-                </div>
-                <div class="menu-icon" id="menu-icon">
-                    <i class="fa-solid fa-bars"></i>
-                </div>
-            </nav>
+  <header class="">
+    <div class="topHeader" style="background-color: #203E7C; align-items: center;">
+      <div class="top">
+        <div class="left d-flex" style="margin-top: 5px;">
+          <img src="photos/language_24dp_5F6368_FILL0_wght300_GRAD-25_opsz24 1.png" alt=""><h1 >Azərbaycan</h1>
         </div>
-    </header>
-    <section id="meta" class="container py-5">
-        <div class="row align-items-center">
-          <!-- Left Side -->
-          <div class="col-lg-6 col-md-12 mb-4 mb-lg-0">
-            <div class="leftbar">
-              <div class="firstbox">
-                <p class="meta-title">
-                  META-təhsildə müasirliyin, etibarın və təcrübənin adresi
-                </p>
-                <h2 class="meta-subtitle">
-                  Təlim proqramlarımızda iştirak edin, karyera fürsətlərindən yararlanın və iş dünyasında fərq yaradın.
-                </h2>
-                <a href="#" class="btn btn-primary mt-3">Ətraflı</a>
-                <div class="beforeBox mt-4">
-                  <div class="stats d-flex " >
-                    <div class="stat-item">
-                      <p>10</p>
-                      <h2>İllik təcrübə</h2>
-                    </div>
-                    <div class="stat-item" style="margin-left: 40px;">
-                      <p>50+</p>
-                      <h2>Əməkdaşlıq</h2>
-                    </div>
+        <div class="right d-flex" style="margin-top: 5px; ">
+          <i class="fa-solid fa-phone-volume" style="font-size: 20px;"></i><h1 style="margin-top: 3px;">+994 00 000 00 00</h1>
+          <i class="fa-brands fa-whatsapp"  style="font-size: 20px;"></i><h1 style="margin-top: 3px;">+994 00 000 00 00</h1>
+        </div>
+      
+      </div>
+    </div>
+      <div class="container2 wrapper">
+          <div class="logo">
+              <img src="photos/logo.png" alt="Etiket.pro ">
+          </div>
+          <div class="navbar">
+              <ul id="menu">
+                  <li><a href="home.html">Ana səhifə</a></li>
+                  <li class="about-menu">
+                    
+                    <a href="about.html">Haqqımızda <i class="fa-solid fa-chevron-down"></i></a>
+                    <ul class="about-menu-open">
+                      <li><a href="/values.html">Dəyərlərimiz</a></li>
+                      <li style="margin-top: -15px;"><a href="team.html">Komandamız</a></li>
+                    </ul>
+                  
+                  </li>
+                  <li class="about-menu">
+                    <a href="#">Xidmətlər <i class="fa-solid fa-chevron-down"></i></a>
+                    <ul class="about-menu-open">
+                      <li ><a href="serviceid.html" >Təhsil xidmətləri</a></li>
+                      <li ><a href="coorporationid.html">koorporativ xidmətlər</a></li>
+                    </ul>
+                    
+                  </li>
+                  <li><a href="blog.html">Bloq</a></li>
+                  <li class="career-menu">
+                    <a href="">Karyera <i class="fa-solid fa-chevron-down"></i></a>
+                     <ul class="career-menu-open">
+                      <li><a href="vacancy.html ">
+                        Vakansiyalar
+                      </a></li>
+                     </ul>
+                  </li>
+                  <li><a href="contact.html">Əlaqə</a></li>
+              </ul>
+          </div>
+          <nav>
+              <div id="responsive-menu">
+                  <div class="container open-menu">
+                      <div class="open-menu-logo">
+                          <img src="photos/logo.png" alt="Etiket.pro ">
+                      </div>
+                      <span id="menu-close">
+                          <i class="fa-solid fa-x"></i>
+                      </span>
+                      <ul class="list-unstyled">
+                          <li><a class="text-decoration-none" href="home.html">Ana səhifə</a></li>
+                          <hr>
+                          <li><a class="text-decoration-none" href="/about.html">Haqqımızda <i class="fa-solid fa-chevron-down"></i></a></li>
+                          <hr>
+                          <li><a class="text-decoration-none" href="#">Xidmətlər <i class="fa-solid fa-chevron-down"></i></a></li>
+                          <hr>
+                          <li><a class="text-decoration-none" href="blog.html">Bloq</a></li>
+                          <hr>
+
+                          <li><a class="text-decoration-none" href="vacancy.html">Karyera <i class="fa-solid fa-chevron-down"></i></a></li>
+                          <hr>
+
+                          <li><a class="text-decoration-none" href="/contact.html">Əlaqə</a></li>
+                          <hr>
+                      </ul>
                   </div>
-                </div>
+
               </div>
-            </div>
-          </div>
-      
-          <!-- Right Side -->
-          <div class="col-lg-6 col-md-12 text-center">
-            <img src="photos/3.png" alt="Meta Image" class="img-fluid" style="width: 400px; margin-left:40px; margin-bottom: 120px;" />
-          </div>
-        </div>
-      </section>
-      
+              <div class="menu-icon" id="menu-icon">
+                  <i class="fa-solid fa-bars"></i>
+              </div>
+          </nav>
+      </div>  
+  </header>   
+  <section id="meta" >
+    <div class="container d-flex">
+    <div class="left">
+      <p>META - təhsildə müasirliyin, etibarın və təcrübənin adresi</p>
+      <h1>Təlim proqramlarımızda iştirak edin, karyera fürsətlərindən yararlanın və iş dünyasında fərq yaradın.</h1>
+      <a href="">Ətraflı</a>
+    </div>
 
+      <div class="right">
+        <img src="photos/3.png" alt="" class="img-fluid">
+      </div>
+    </div>
+    <div class="beforebox container d-flex">
+      <div class="leftbox">
+        <p>10</p>
+        <h1>İllik təcrübə</h1>
+      </div>
+      <div class="rightbox">
+        <p>50+</p>
+        <h1>Əməkdaşlıq</h1>
+      </div>
+    </div>
 
-    <section id="services" >
+  </section>
+    <section id="services"  style="background-color: white;">
         <div class="container">
             <p>Xidmətlər</p>
             <h2>Göstərdiyimiz xidmətlər</h2>
@@ -123,110 +144,123 @@
               
             </div>
     </section>
-
     <section id="about" class="d-flex">
+      
       <div class="leftbar">
         <img src="photos/aboutimage.png" alt="" class="img-fluid">
       </div>
       <div class="rightbar">
         <p>Haqqımızda</p>
+        <h6 style="font-size: 28px;">Biz kimik?</h6>
         <h1>“Meta Education and Consulting” MMC olaraq, 50-yə yaxın yerli sahibkar və şirkətə yüksək keyfiyyətli korporativ xidmətlər təqdim edirik. Bizim vizyonumuz, menecment, mühasibatlıq, marketinq, dizayn, HR, hüquq və digər bütün sahələrdə xidmət göstərərək, dünya səviyyəsində tanınan beynəlxalq bir brendə çevrilməkdir.</h1>
         <a href="#" style="text-decoration: none; color: white;">Daha çox</a>
       </div>
       
     </section>
-   
-    <section id="education" class="container">
+    <section id="education" >
+      <div class="container">
       <p>Xidmətlər</p>
       <h1> Təhsil xidmətləri</h1>
+      <div class="container">
       <div class="boxes d-flex">
-        <div class="box" style="border: none;">
+        <div class="boxs" style="border: none;">
           <img src="photos/Notebook.png" alt="" style="background-color:#408EE8;">
           <h6>Praktiki mühasibatlıq, vergi və kadr uçotu</h6>
         </div>
-        <div class="box" style="border: none;">
+        <div class="boxs" style="border: none;">
           <img src="photos/Calculator.png" alt="" style="background-color:#289208;">
-          <h6>Praktiki mühasibatlıq, vergi və kadr uçotu</h6>
+          <h6> Financial Accounting (F3)</h6>
         </div>
-        <div class="box" style="border: none;">
+        <div class="boxs" style="border: none;">
           <img src="photos/Financial Accounting (F3).png" alt="" style="background-color:#F6E30A;">
-          <h6>Praktiki mühasibatlıq, vergi və kadr uçotu</h6>
-        </div><div class="box" style="border: none;">
+          <h6>Financial Reporting (FR)</h6>
+        </div><div class="boxs" style="border: none;">
           <img src="photos/Financial Reporting (FR).png" alt="" style="background-color:#1C57D6;">
-          <h6>Praktiki mühasibatlıq, vergi və kadr uçotu</h6>
-        </div><div class="box" style="border: none;">
+          <h6>PMS hazırlığı</h6>
+        </div><div class="boxs" style="border: none;">
           <img src="photos/PMS hazirligi.png" alt="" style="background-color:#E52A2A;">
-          <h6>Praktiki mühasibatlıq, vergi və kadr uçotu</h6>
-        </div><div class="box" style="border: none;">
+          <h6>HR mütəxəssis kursu</h6>
+        </div><div class="boxs" style="border: none;">
           <img src="photos/HR mütəxəssis kursu.png" alt="" style="background-color:#E88640; ">
-          <h6>Praktiki mühasibatlıq, vergi və kadr uçotu</h6>
+          <h6>HR mütəxəssis kursu</h6>
         </div>
       </div>
-      <div class="coorporation ">
+    </div>
+  </div>
+
+    <div class="coorporation" style="background-color: #F1F1F1;">
+        <div class="container">
+
         <p>Xidmətlər</p>
-      <h1> Təhsil xidmətləri</h1>
+      <h1> Koorporativ xidmətləri</h1>
       <div class="boxes">
 
         <div class="box" style="border: none;">
           <img src="photos/Mühasibat.png" alt="" style="background-color:#408EE8;">
-          <h6>Praktiki mühasibatlıq, vergi və kadr uçotu</h6>
+          <h6>  Mühasibat uçotu</h6>
         </div>
         <div class="box" style="border: none;">
           <img src="photos/Vergi.png" alt="" style="background-color:#289208;">
-          <h6>Praktiki mühasibatlıq, vergi və kadr uçotu</h6>
+          <h6>Vergi uçotu</h6>
         </div>
         <div class="box" style="border: none;">
           <img src="photos/Kadr.png" alt="" style="background-color:#E88640;">
-          <h6>Praktiki mühasibatlıq, vergi və kadr uçotu</h6>
+          <h6>Kadr uçotu</h6>
         </div>
       </div>
 
       </div>
+    </div>
       
       
     </section>
-
     <section id="ourteam" class="container">
       <p>Komandamız</p>
       <h2>Komanda üzvləri</h2>
-      <a href="" style="width: 128px; height: 32px; text-align: center; margin-top: 10px; background-color: #203E7C; color:white; border-radius: 32px; text-decoration: none; margin-top: 20px; display: inline-block;">İdarə heyəti</a>
-      <a href="" style="width: 128px; height: 32px; text-align: center; margin-top: 10px; background-color: #D0D1D4; color:black; border-radius: 32px; text-decoration: none; margin-top: 20px; display: inline-block;">Müəllim heyəti</a>
-      <a href="" style="margin-left: 87%; display: inline-block;position: relative; top: -20px; text-decoration: underline; font-size: 14px; font-weight: 400; color: #1C57D6;">Hamısını gör</a>
+      <!-- <a href="" style="width: 128px; height: 32px; text-align: center; background-color: #203E7C; color:white; border-radius: 32px; text-decoration: none; margin-top: 20px; display: inline-block;">İdarə heyəti</a>
+      <a href="" style="width: 128px; height: 32px; text-align: center; margin-top: 10px; background-color: #D0D1D4; color:black; border-radius: 32px; text-decoration: none; margin-top: 20px; display: inline-block;">Müəllim heyəti</a> -->
+      <div class="teacher">
+        <a href="">İdarə heyəti</a>
+        <a href="" style="background-color: #D0D1D4; color:black  ">Müəllim heyəti</a>
+        <a href="" class="lastitem">Hamısını gör</a>
+      </div>
+      
       <div class="boxes">
         <div class="box">
           <img src="photos/mehrac.png" alt="">
-          <a href="" style="text-decoration: none;">Mehrac Abdurahmanlı</a>
+          <a href="" >Mehrac Abdurahmanlı</a>
           <h4>Təsisçi və direktor</h4>
         </div> 
         <div class="box">
           <img src="photos/mehrac.png" alt="">
-          <a href="" style="text-decoration: none;">Mehrac Abdurahmanlı</a>
+          <a href="" >Mehrac Abdurahmanlı</a>
           <h4>Təsisçi və direktor</h4>
         </div>
          <div class="box">
           <img src="photos/mehrac.png" alt="">
-          <a href="" style="text-decoration: none;">Mehrac Abdurahmanlı</a>
+          <a href="" >Mehrac Abdurahmanlı</a>
           <h4>Təsisçi və direktor</h4>
         </div>
          <div class="box">
           <img src="photos/mehrac.png" alt="">
-          <a href="" style="text-decoration: none;">Mehrac Abdurahmanlı</a>
+          <a href="" >Mehrac Abdurahmanlı</a>
           <h4>Təsisçi və direktor</h4>
         </div>
       </div>
 
     </section>
+    <section id="blog" >
+      <div class="container">
 
-    <section id="blog" class="container">
       <p>Bloq</p>
       <h2>Bloqlarla tanış olun</h2>
-      <a href="" style="margin-left: 87%; display: inline-block;position: relative; top: -20px; text-decoration: underline; font-size: 14px; font-weight: 400; color: #1C57D6;">Hamısını gör</a>
-
-      <a href="" style="width: 230px; height: 32px; text-align: center; margin-top: 10px; background-color: #203E7C; color:white; border-radius: 32px; text-decoration: none; margin-top: 20px; display: inline-block;">Maliyyə və mühasibatlıq</a>
-      <a href="" style="width: 128px; height: 32px; text-align: center; margin-top: 10px; background-color: #D0D1D4; color:black; border-radius: 32px; text-decoration: none; margin-top: 20px; display: inline-block;">Dizayn</a>
-      <a href="" style="width: 128px; height: 32px; text-align: center; margin-top: 10px; background-color: #D0D1D4; color:black; border-radius: 32px; text-decoration: none; margin-top: 20px; display: inline-block;">Marketinq</a>
-
-      <a href="" style="width: 128px; height: 32px; text-align: center; margin-top: 10px; background-color: #D0D1D4; color:black; border-radius: 32px; text-decoration: none; margin-top: 20px; display: inline-block;">Proqramlaşdırma</a>
+      <div class="teacher">
+        <a href="">Maliyyə və mühasibatlıq</a>
+        <a href="" style="background-color: #D0D1D4; color:black  ">Dizayn</a>
+        <a href="" style="background-color: #D0D1D4; color:black  ">Marketinq</a>
+        <a href="" style="background-color: #D0D1D4; color:black  ">Proqramlaşdırma</a>
+        <a href="" class="lastitem">Hamısını gör</a>
+      </div>
 
       <div class="boxes d-flex">
 
@@ -252,8 +286,11 @@
       </div> 
     </div>
 
+  </div>
 
-    </section>
+    </section> 
+  
+
     
     <footer id="footer" class="container">
       <div class="row">
@@ -313,11 +350,14 @@
                   <a href="#"><i class="fa-brands fa-youtube"></i></a>
                   <a href="#"><i class="fa-brands fa-tiktok"></i></a>
                   <a href="#" style="color: white; background-color: #1C57D6;"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
               </div>
-              <h5>Meta.az <i class="fa-regular fa-copyright"></i> Bütün hüquqlar qorunur.</h5>
+            </div>
+            
+            <div class="copyright d-flex">
+              <h4>Meta.az <i class="fa-regular fa-copyright"></i>Bütün hüquqlar qorunur.</h4>
               <h4>Sayt hazırlandı: Birsayt.az</h4>
-          </div>
-      </div>
+            </div>
   </footer>
   
 <script src="assets/main.js"></script>    

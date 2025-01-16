@@ -1,7 +1,45 @@
 header {
-  background-color: #203E7C;
-  display: flex;
-  flex-direction: column; 
+    .topHeader{
+        .top{
+            img{
+               width: 18px;
+               height: 18px;
+                
+            }
+        }
+    }
+}
+    .top{
+        align-items: center;
+        text-align: center;
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        h1{
+            color: white;
+            font-size: 14px;
+            font-weight: 400;
+        }
+        i{
+            color: white;
+            width: 20px;
+            height: 20px;
+            margin-top: 3px;
+            margin-left: 20px;
+        }
+        img{
+            width: 20px;
+            height: 20px;
+            
+        }
+       
+    
+    }
+    @media (max-width: 768px) {
+        
+    
+
 
   .topleftHeader {
       display: flex;
@@ -43,13 +81,14 @@ header {
           img {
               max-width: 200px; /* Use max-width for better responsiveness */
               max-height: 200px;
+              
           }
       }
 
       .tabmenu {
           display: flex;
           justify-content: center; /* Center the menu horizontally */
-
+        
           ul {
               display: flex;
               list-style: none;
@@ -60,6 +99,7 @@ header {
                   a {
                       text-decoration: none;
                       color: black;
+                      
                   }
 
                   i {
@@ -70,3 +110,4 @@ header {
       }
   }
 }
+
