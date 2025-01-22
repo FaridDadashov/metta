@@ -1,3 +1,25 @@
+
+.about {
+    width: 100%;
+    background-color: #203E7C;
+
+    h1 {
+        color: white;
+        align-items: center;
+        text-align: center;
+        font-size: 28px;
+    }
+
+    p {
+        text-align: center;
+        color: white;
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
+
+
+
 #coorporationid{
     display: flex;
     margin-top: 80px;

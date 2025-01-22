@@ -1,19 +1,20 @@
 #footer {
+    background-color: #F1F1F1;
     overflow: hidden;
-    margin-top: 50px;
+    margin-top: 140px;
     height: auto;
     align-items: center;
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 20px;
 
     h1, p {
         font-size: 16px;
-        font-weight: 550;
+        font-weight: 500;
         margin: 5px 0;
         text-align: left;
+        color: black;
     }
 
     .logoBox{
@@ -21,7 +22,7 @@
     }
     
     .linkbox, .aboutbox, .contactbox, .adressbox {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         text-align: left;
 
         ul {
@@ -74,6 +75,7 @@
    
 
     @media (max-width: 576px) {
+       
         .logoBox{
             p{
                 color: black;

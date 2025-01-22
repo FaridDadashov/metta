@@ -1,11 +1,21 @@
 #services{
     display: flex;
     height: auto;
-    margin-bottom: 100px;
     background-color: #F1F1F1;
+    margin: 0;
     
     .leftbar{
+        background-color: white;
+        margin-left: 100px;
+        margin-top: 100px;
+        border-radius: 8px;
+        height: 770px;
+        width: 400px;
+        ul{
+            padding: 0;
+        }
         li{
+            padding: 0  ;
             a{
             display: inline-block;
             padding: 12px 16px;
@@ -39,7 +49,8 @@
     }
     .rightbar{
         width: 140%;  
-        margin-top: 10px;
+        margin-left: 100px;
+        margin-top: 80px;
         h5{
             font-size: 20px;
             font-weight: 500;
@@ -88,31 +99,36 @@
             width: 500px;
             margin-left: auto;
         }
-    }
-
-    .leftbar {
-        width: 100%;
-        li {
-            a {
-                font-size: 14px;
-                padding: 10px 12px;
-                width: 100%;
+        .leftbar {
+            width: 100%;
+            margin-left: auto;
+            height: auto;
+            
+            li {
+                a {
+                    font-size: 14px;
+                    padding: 10px 12px;
+                    width: 100%;
+                }
             }
         }
+        .rightbar {
+            width: 100%;
+            margin-top: 20px;
+            text-align: start;
+            margin-left: 0;
+            h4 {
+                width: 100%;
+                font-size: 14px;
+            }
+    
+        
+                
+        
+    }
     }
 
-   
-    .rightbar {
-        width: 100%;
-        margin-top: 20px;
-        text-align: start;
-        h4 {
-            width: 100%;
-            font-size: 14px;
-        }
 
-    
-            
-    
-}
+   
+   
 }

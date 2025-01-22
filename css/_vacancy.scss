@@ -1,4 +1,19 @@
 #vacancy{
+    .filter{
+        padding: 8px 26px;
+        margin-right: 10px;
+        border-radius: 8px;
+       
+    
+    }
+   form{
+    img{
+        position: relative;
+        left: 30px;
+    }
+   }
+
+
     margin-top: 80px;
     .search{
         width: 100%;
@@ -7,7 +22,7 @@
         padding: 14px;
         border-radius: 10px;
         border: 1px solid grey;
-        transition: box-shadow 0.25s;
+        transition: box-shadow 0k.25s;
     }
     .sear:focus-within{
         box-shadow:0 0 2px 0 black;
@@ -43,28 +58,30 @@
         margin-top: 50px;
         border-radius: 15px;
         border:1px solid grey;
+        align-items: center;
         a{
             color: black;
             text-decoration: none;
+            font-weight: 500;
         }
         .topbox{
             align-items: center;
             h1{
                 font-size: 24px;
-                grid-row-end: 600;
-                display: block;
+                grid-row-end: 700;
                 color: black;
             }
             img{
                 width: 78px;
                 margin-left: 10px;
                 height: 25px;
+                margin-bottom: 10px;
             }
         }
         .bottombox{
             text-align: center;
+            margin-top: 10px;
            
-            align-items: center;
             h1{
                 font-size: 16px;
                 font-weight: 400;
@@ -79,6 +96,7 @@
         }
         p{
             color: black;
+            margin-top: 10px;
         }
     }
 }
